@@ -1,0 +1,1 @@
+web: gunicorn pgsqltst.wsgi:application --log-file -
